@@ -1,0 +1,46 @@
+.endless-whiteboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.endless-whiteboard-toolbar {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    background-color: var(--background-secondary);
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.endless-whiteboard-canvas-container {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Touch-friendly button styles */
+.touch-friendly-button {
+    min-width: 44px;
+    min-height: 44px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--background-modifier-border);
+    background-color: var(--background-primary);
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.touch-friendly-button:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+/* Ensure canvas takes full space */
+.canvas-container {
+    width: 100% !important;
+    height: 100% !important;
+} 

@@ -1,0 +1,11 @@
+{
+    "id": "endless-whiteboard",
+    "name": "Endless Whiteboard",
+    "version": "1.0.0",
+    "minAppVersion": "0.15.0",
+    "description": "An infinite canvas whiteboard with iPad and Apple Pencil support",
+    "author": "YOUR_GITHUB_USERNAME",
+    "authorUrl": "https://github.com/YOUR_GITHUB_USERNAME",
+    "isDesktopOnly": false,
+    "repository": "https://github.com/YOUR_GITHUB_USERNAME/obsidian-endless-whiteboard"
+} 
